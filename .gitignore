@@ -1,0 +1,28 @@
+# Arquivos enviados pelos usuários (dados de produção, ~1.5 GB)
+/arquivos/*
+/equipamentos/arquivos/*
+/inspecoes/arquivos/*
+/assets/img/usuarios/*
+/assets/img/inspetores/*
+!/assets/img/usuarios/assinaturas/
+!/assets/img/inspetores/assinaturas/
+/assets/img/usuarios/assinaturas/*
+/assets/img/inspetores/assinaturas/*
+!.gitkeep
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+*~
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Configuração local do Claude Code
+.claude/settings.local.json
